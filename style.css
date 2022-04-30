@@ -94,7 +94,7 @@ background-color: #e0e0e0;
     flex-wrap: wrap;
 }
 
-#sports-view .sport{     /*classe da aggiungere con javascript*/
+#sports-view .sport{     
 margin: 10px;
 border: 1px solid slategray;
 padding: 5px;
@@ -103,7 +103,7 @@ display: flex;
 flex-direction: column;
 }
 
-#sports-view img{    /*Classe da aggiungere con javascript*/
+#sports-view img{    
     max-width: 100%;
 }
 
