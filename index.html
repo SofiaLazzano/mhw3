@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz della personalità</title>
+    <link href="https://fonts.googleapis.com/css?family=Pangolin:400,700|Proxima+Nova" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="provided-style.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="constants.js" defer="true"></script>
+    <script src="script.js" defer="true"></script>
+  </head>
+
+  <body>
+    <article>
+      <header>
+          <h1>Web Programming</h1>
+          <div>
+            <span>M</span>
+            <span>H</span>
+            <span>W</span>
+            <span>3</span>
+          </div>
+      </header>
+      <h1>Che personalità hai?</h1>
+      
+      <form class="firstsearch">
+        Inserisci il nome di uno sport
+        <input type = 'text' id = 'sport'>
+        <input type = 'submit' id = 'submit' value="Cerca">
+      </form>
+
+      <section id = 'sports-view'>
+      </section>
+
+      <section class="question-name question1">
+        <h1>Quale sport vorresti praticare?</h1>
+      </section>
+    
+      <section class="choice-grid">
+        <div data-choice-id="blep" data-question-id="one">
+          <img src="images/pallavolo.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="happy" data-question-id="one">
+          <img src="./images/scherma.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="sleeping" data-question-id="one">
+          <img src="./images/calcio.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="dopey" data-question-id="one">
+          <img src="./images/corsa.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="burger" data-question-id="one">
+          <img src="./images/ciclismo.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="cart" data-question-id="one">
+          <img src="./images/basket.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="nerd" data-question-id="one">
+          <img src="./images/tennis.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="shy" data-question-id="one">
+          <img src="./images/golf.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="sleepy" data-question-id="one">
+          <img src="./images/pugilato.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+      </section>
+
+      <section class="question-name question2">
+        <h1>Quale città vorresti visitare?</h1>
+      </section>
+
+      <section class="choice-grid">
+        <div data-choice-id="blep" data-question-id="two">
+          <img src="images/tokyo.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="happy" data-question-id="two">
+          <img src="./images/parigi.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="sleeping" data-question-id="two">
+          <img src="./images/amsterdam.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="dopey" data-question-id="two">
+          <img src="./images/atene.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="burger" data-question-id="two">
+          <img src="./images/rio.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="cart" data-question-id="two">
+          <img src="./images/il_cairo.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="nerd" data-question-id="two">
+          <img src="./images/istanbul.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="shy" data-question-id="two">
+          <img src="./images/las vegas.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="sleepy" data-question-id="two">
+          <img src="./images/londra.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+      </section>
+
+      <section class="question-name question3">
+        <h1>Quale film preferisci?</h1>
+      </section>
+
+      <form class="thirdsearch">
+        Digita qui la colonna sonora del tuo film preferito
+        <input type = 'text' id = 'album'>
+        <input type = 'submit' id = 'submit' value="Cerca">
+    
+      </form>
+
+
+      <section id = 'album-view'>
+      </section>
+
+      <section class="choice-grid">
+        <div data-choice-id="blep" data-question-id="three">
+          <img src="./images/pirati.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="happy" data-question-id="three">
+          <img src="./images/pulpfiction.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="sleeping" data-question-id="three">
+          <img src="./images/themask.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="dopey" data-question-id="three">
+          <img src="./images/titanic.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="burger" data-question-id="three">
+          <img src="./images/joker.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="cart" data-question-id="three">
+          <img src="./images/jurassicworld.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="nerd" data-question-id="three">
+          <img src="./images/avengers.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="shy" data-question-id="three">
+          <img src="./images/inception.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="sleepy" data-question-id="three">
+          <img src="./images/una notte al museo.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+      </section>
+<section class = 'risultato hidden'>
+  <h1></h1>
+  <p></p>
+  <button>Ricomincia il quiz!</button>
+</section>
+    </article>
+  </body>
+</html>

@@ -1,0 +1,131 @@
+/* TODO: inserite il CSS necessario per completare il MHW! */
+
+section.question-name{
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.choice-grid{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 0px 20px 0px;
+}
+
+.choice-grid div{
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f4f4;
+    padding: 10px;
+    width: calc((32.5%) - 20px - 2px);
+    border: 1px solid #dcdcdc;
+    margin: 20px 0px 0px 0px;
+
+}
+
+.question1{
+    background-image: url("images/domanda1.jpeg");
+    background-size: cover;
+    height: 200px;
+  
+}
+
+.question2{
+    background-image: url('images/domanda2.jpeg');
+    background-size: cover;
+    height: 200px;
+
+}
+
+.question3{
+    background-image: url('images/domanda3.jpg');
+    background-size: cover;
+    height: 200px;
+}
+
+.selected{
+    background-color: #cfe3ff;
+
+}
+
+.unselected{
+    opacity: 0.6;
+}
+
+.hidden{
+    display: none;
+}
+
+.risultato button:hover{
+background-color: #e0e0e0;
+}
+
+.risultato button{
+    background-color: #cecece;
+    cursor: pointer;
+    height: 50px;
+    width: 100%;
+
+}
+.risultato{
+    margin-top: 40px;
+    margin-bottom: 20px; 
+    padding: 20px;
+}
+
+@media(min-width: 500px) and (max-width: 700px){
+    article {
+        width: 95%;
+    }
+    header div span{
+        display: none;
+    }
+
+}
+
+@media(max-width: 500px){
+    .choice-grid div{
+        width: calc(49% - 20px - 2px);
+    }
+}
+
+#sports-view{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#sports-view .sport{     /*classe da aggiungere con javascript*/
+margin: 10px;
+border: 1px solid slategray;
+padding: 5px;
+max-width: 150px;
+display: flex;
+flex-direction: column;
+}
+
+#sports-view img{    /*Classe da aggiungere con javascript*/
+    max-width: 100%;
+}
+
+.firstsearch{
+    margin-bottom: 10px;
+}
+
+
+#album-view {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #album-view .album {
+    margin: 10px;
+    border: 1px solid slategray;
+    padding: 5px;
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #album-view img {
+    max-width: 100%;
+  }
